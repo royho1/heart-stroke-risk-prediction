@@ -73,6 +73,38 @@ python ML.py
 streamlit run app.py
 ```
 
+## Screenshots
+
+### Stroke Predictor
+
+![Stroke Predictor](docs/screenshots/ui-predictor.png)
+
+Interactive Streamlit form where visitors enter health features and get a risk prediction.
+
+### Model metrics
+
+![Model metrics](docs/screenshots/model-metrics.png)
+
+Held-out accuracy, precision, recall, and F1 for Balanced RF vs RF + SMOTE.
+
+### Confusion matrix
+
+![Confusion matrix](docs/screenshots/confusion-matrix.png)
+
+Test-set confusion matrix for the deployed RF + SMOTE model.
+
+### Graphs page
+
+![Graphs page](docs/screenshots/ui-graphs-heatmap.png)
+
+Full Streamlit graphs view with the correlation heatmap selected.
+
+### Age range chart
+
+![Age range chart](docs/screenshots/plot-age-range.png)
+
+Stroke proportion across age groups from the healthcare dataset.
+
 ## Project layout
 
 ```
